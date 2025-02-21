@@ -1,0 +1,57 @@
+import { RiArrowRightLine, RiCompasses2Line, RiMagicLine, RiToolsLine } from '@remixicon/react'
+import React from 'react'
+
+const Steps = () => {
+  return (
+    <section className='steps mt-80px lg:mt-[200px] relative z-20'> 
+    <div className="container mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <div className="step_step text-center">
+                <div className="flex justify-center mb-4">
+                    <RiCompasses2Line size={40} className='text-5xl text-accent'  />
+                </div>
+                <h2 className='text-3xl mb-5 '>Project Planning</h2>
+                <p className='mb-5 max-w-md mx-auto text-[1.1rem]'>
+                    We begin by gathering requirements, understanding the project objectives, and establishing the project timeline.
+                </p>
+                <a href='#' className='font-medium text-[1rem] flex justify-center gap-x-2'>
+                    Read more
+                    <RiArrowRightLine size={15} className='text-accent' />
+                </a>
+            </div>
+            
+            <div className="step_step text-center">
+                <div className="flex justify-center mb-4">
+                    <RiMagicLine size={40} className='text-5xl text-accent'  />
+                </div>
+                <h2 className='text-3xl mb-5 '>Gaining Materials</h2>
+                <p className='mb-5 max-w-md mx-auto text-[1.1rem]'>
+                    We begin by gathering requirements, understanding the project objectives, and establishing the project timeline.
+                </p>
+                <a href='#' className='font-medium text-[1rem] flex justify-center gap-x-2'>
+                    Read more
+                    <RiArrowRightLine size={15} className='text-accent' />
+                </a>
+            </div>
+            
+            <div className="step_step text-center">
+                <div className="flex justify-center mb-4">
+                    <RiToolsLine size={40} className='text-5xl text-accent'  />
+                </div>
+                <h2 className='text-3xl mb-5 '>Project Execution</h2>
+                <p className='mb-5 max-w-md mx-auto text-[1.1rem]'>
+                    We begin by gathering requirements, understanding the project objectives, and establishing the project timeline.
+                </p>
+                <a href='#' className='font-medium text-[1rem] flex justify-center gap-x-2'>
+                    Read more
+                    <RiArrowRightLine size={15} className='text-accent' />
+                </a>
+            </div>
+            
+        </div>
+    </div> 
+    </section>
+  )
+}
+
+export default Steps
