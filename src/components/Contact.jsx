@@ -10,7 +10,7 @@ const Contact = () => {
                     Do you want to join Interno
                 </h2>
 
-                <p className='text-gray-200 text-base mb-8 max-w-sm lg:max-w-none max-auto'>It is a long established fact will be distracted.</p>
+                <p className='text-gray-200 text-base mb-8 max-w-sm lg:max-w-none max-auto'>Give us a try Today and you won't regret.</p>
 
                 <button className='btn btn-accent mx-auto'>
                     Get In Touch
