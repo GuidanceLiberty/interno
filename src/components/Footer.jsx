@@ -1,4 +1,4 @@
-import { RiFacebookBoxLine, RiInstagramFill, RiLinkedinFill, RiTwitterFill, RiTwitterXFill, RiXboxFill } from '@remixicon/react'
+import { RiFacebookBoxLine, RiFacebookCircleFill, RiInstagramFill, RiLinkedinFill, RiTiktokFill, RiTwitterFill, RiTwitterXFill, RiXboxFill, RiYoutubeFill, RiYoutubeLine } from '@remixicon/react'
 import logo from '../assets/logo.svg'
 
 const Footer = () => {
@@ -18,32 +18,32 @@ const Footer = () => {
 
                        <ul className="text-primary flex gap-[50px] justify-center lg:justify-start">
                         <li><a href='#'>
-                            <RiFacebookBoxLine size={25}
-                            className='text-accent' />
+                            <RiFacebookCircleFill size={25}
+                            className='text-[#1877F2]' />
                         </a>
                         </li>
 
                         <li><a href='#'>
-                            <RiTwitterFill size={25}
-                            className='text-accent' />
+                            <RiYoutubeFill size={25}
+                            className='text-[#E10600]' />
                         </a>
                         </li>
 
                         <li><a href='#'>
                             <RiLinkedinFill size={25}
-                            className='text-accent' />
+                            className='text-[#0077B5]' />
                         </a>
                         </li>
 
                         <li><a href='#'>
                             <RiInstagramFill size={25}
-                            className='text-accent' />
+                            className='text-[#962fbf]' />
                         </a>
                         </li>
 
                         <li><a href='#'>
                             <RiTwitterXFill size={25}
-                            className='text-accent' />
+                            className='text-primary' />
                         </a>
                         </li>
                        
