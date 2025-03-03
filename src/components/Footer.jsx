@@ -106,8 +106,8 @@ const Footer = () => {
 
                     <div className="footer__item mx-w-[260px] mx-auto lg:mx-0 text-xl">
                         <h3 className='text-3xl mb-3'>Contact</h3>
-                        <div className="flex flex-col gap-2 ">
-                            <p>
+                        <div className="flex flex-col gap-2">
+                            <p className='text-center ml-5'>
                                 55 East Allen Ave. Brooklyn, New York 11201
                             </p>
                             <p>Contact@interno.com</p>
