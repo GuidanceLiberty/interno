@@ -6,9 +6,9 @@ const Hero = () => {
     style={{ backgroundImage: `url(${heroImg})` }}>
       <div className="container mx-auto h-full flex items-center justify-center">
         <div className="hero__text">
-        <h1 className='text-[2.3rem] md:text-[3.5rem] sm:text-[2.3rem] font-semibold mb-8'>Let Your Home Be Unique</h1>
+        <h1 className='text-[2.3rem] md:text-[3.5rem] sm:text-[2.3rem] font-semibold mb-8 text-center'>Let Your Home Be Unique</h1>
 
-         <p className='mb-8 text-[1.1rem]'>There are many variations of the passages of lorem Ipsum from available,variations of the passages.
+         <p className='mb-8 text-[1.1rem] text-center'>There are many variations of the passages of lorem Ipsum from available,variations of the passages.
          </p>   
 
         <button className='btn btn-primary mx-auto lg:mx-0'>
