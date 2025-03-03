@@ -24,7 +24,7 @@ const Navbar = () => {
             <div className="block sm:hidden cursor-pointer">
               {
                 openMenu
-                ? <RiCloseLine style={{marginRight: '10px'}} onClick={() => setOpenMenu(false)} />
+                ? <RiCloseLine className='text-red-400' style={{marginRight: '10px'}} onClick={() => setOpenMenu(false)} />
                 : <RiMenu3Line style={{marginRight: '10px'}} onClick={() => setOpenMenu(true)} />
               }
             </div>
