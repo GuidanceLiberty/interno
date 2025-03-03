@@ -54,7 +54,7 @@ const Footer = () => {
                 <div className="flex-1 flex flex-col lg:flex-row text-center lg:text-right gap-8 lg:gap-[100px] justify-end">
                     <div className="footer__item">
                         <h3 className='text-3xl mb-3'>Pages</h3>
-                        <ul style={{textAlign: 'left'}}>
+                        <ul>
                             
                             <li>
                                 <a href='#' className='!text-[16px]'>About Us</a>

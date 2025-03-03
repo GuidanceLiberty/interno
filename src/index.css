@@ -16,8 +16,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn {
-    @apply h-[55px] px-[30px] text-[1rem] transition-all
-    duration-300 text-white rounded-[18px] flex items-center gap-2 
+    @apply h-[55px] px-[30px] text-[1rem] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2 
 }
 
 .btn-primary {
@@ -29,7 +28,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .wrapper {
-    @apply shadow-lg ;
+    @apply shadow-lg fixed z-40 bg-white w-full;
 }
 
 .nav-div {
@@ -37,7 +36,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .menu-items {
-    @apply flex justify-start gap-7 cursor-pointer;
+    @apply hidden sm:flex md:flex justify-start gap-7 cursor-pointer ;
 }   
 
 .menu-item {
@@ -47,6 +46,9 @@ h1, h2, h3, h4, h5, h6{
 
 .logo-img {
    @apply h-6 object-contain;
+}
+.mobile-menu {
+    @apply flex flex-col relative mt-5 px-3 gap-3 border border-accent-secondary rounded-xl
 }
 
 .slide {
