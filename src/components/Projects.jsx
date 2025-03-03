@@ -21,9 +21,9 @@ const Projects = () => {
             <img src={proj_2} alt="Project 2" />
 
             <div className="flex justify-between items-center w-full">
-                <div className="mt-3">
-                    <h3 className='text-[1.1rem] font-semibold ml-10'>Modern Room</h3>
-                    <p className='text-[1rem] ml-10'>Decor/Architecture</p>
+                <div className="mt-3 ml-5">
+                    <h3 className='text-[1.1rem] font-semibold'>Modern Room</h3>
+                    <p className='text-[1rem]'>Decor/Architecture</p>
                 </div>
 
                 <button className='btn-right-arrow'>
@@ -38,8 +38,8 @@ const Projects = () => {
             <img src={proj_1} alt="Project 1" />
 
             <div className="flex justify-between items-center w-full">
-                <div className="mt-1">
-                    <h3 className='text-[1.1rem] font-semibold text-center'>Modern Kitchen</h3>
+                <div className="mt-1 ml-5">
+                    <h3 className='text-[1.1rem] font-semibold'>Modern Kitchen</h3>
                     <p className='text-[1rem]'>Decor/Architecture</p>
                 </div>
 
@@ -55,7 +55,7 @@ const Projects = () => {
             <img src={proj_4} alt="Project 1" />
 
             <div className="flex justify-between items-center w-full">
-                <div className="mt-3">
+                <div className="mt-3 ml-5">
                     <h3 className='text-[1.1rem] font-semibold'>Modern Lounge</h3>
                     <p className='text-[1rem]'>Decor/Architecture</p>
                 </div>
@@ -72,7 +72,7 @@ const Projects = () => {
             <img src={proj_3} alt="Project 1" />
 
             <div className="flex justify-between items-center w-full">
-                <div className="mt-3">
+                <div className="mt-3 ml-5">
                     <h3 className='text-[1.1rem] font-semibold'>Modern Dinning</h3>
                     <p className='text-[1rem]'>Decor/Architecture</p>
                 </div>
