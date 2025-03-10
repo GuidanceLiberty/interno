@@ -3,7 +3,7 @@ import React from 'react'
 
 const Price = () => {
   return (
-    <section className='z-20 mt-[80px] lg:mt-[150px]'>
+    <section className='z-20 mt-[80px] lg:mt-[150px]' id='price'>
         <div className="container-mx-auto">
             <h1 className='text-4xl font-normal mb-3 text-center'>
                 See Our Price List

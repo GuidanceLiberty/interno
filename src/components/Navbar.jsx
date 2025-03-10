@@ -14,11 +14,11 @@ const Navbar = () => {
 
             <div className="menu-items">
                 <a href="#" className="menu-item">Home</a>
-                <a href="#" className="menu-item">About</a>
-                <a href="#" className="menu-item">Our Services</a>
-                <a href="#" className="menu-item">Blog</a>
-                <a href="#" className="menu-item">Testimonies</a>
-                <a href="#" className="menu-item">Contact</a>
+                <a href="#about" className="menu-item">About</a>
+                <a href="#services" className="menu-item">Our Services</a>
+                <a href="#blog" className="menu-item">Blog</a>
+                <a href="#testimonials" className="menu-item">Testimonies</a>
+                <a href="#contact" className="menu-item">Contact</a>
             </div>
 
             <div className="block sm:hidden cursor-pointer">

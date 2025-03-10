@@ -7,7 +7,7 @@ import blog_3 from '../assets/news/03.png'
 
 const Blog = () => {
   return (
-    <section className='z-20 mt-[80px] lg:mt-[150px]'>
+    <section className='z-20 mt-[80px] lg:mt-[150px]' id='blog'>
         <div className="container-mx-auto">
             <h1 className='text-4xl font-normal mb-3 text-center'>
             Articles & News

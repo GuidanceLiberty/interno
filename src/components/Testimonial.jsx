@@ -7,7 +7,7 @@ import { RiUser3Line } from '@remixicon/react'
 
 const Testimonial = () => {
   return (
-    <section className='mt-[120px] container mx-auto'>
+    <section className='mt-[120px] container mx-auto' id='testimonials'>
         <h1 className='text-4xl font-semibold mb-8 text-center'>What our client says</h1>
 
         <div className="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 justify-center gap-8 h-full overflow-hidden">
