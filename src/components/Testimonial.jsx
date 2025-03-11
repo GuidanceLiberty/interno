@@ -1,9 +1,12 @@
-import React from 'react'
+
 import test_1 from '..//assets/testimonial/01.png'
 import test_2 from '..//assets/testimonial/02.png'
 import test_3 from '..//assets/testimonial/03.png'
 import test_4 from '..//assets/testimonial/04.png'
 import { RiUser3Line } from '@remixicon/react'
+import { animate, motion } from 'framer-motion'
+
+
 
 const Testimonial = () => {
   return (
@@ -22,7 +25,7 @@ const Testimonial = () => {
                 </div>
 
                 <div className="mt-8 text-sm line-clamp-3">
-                        "Working with this team was an amazing experience from start to finish. They truly listened to our needs and vision for the home, and it showed in every detail. The construction process was seamless, with clear communication throughout. We felt supported every step of the way, and they exceeded our expectations. The final result is a beautiful home that we are proud of. Every room feels exactly how we imagined it—comfortable, stylish, and functional. We’re so happy with how it turned out and grateful for all the hard work. Highly recommend them to anyone looking to build their dream home!"
+                        "Working with this team was an amazing experience from start to finish. They truly listened to our needs and vision for the home, and it showed in every detail. The construction process was seamless, with clear communication throughout. We felt supported every step of the way, and they exceeded our expectations. The final result is a beautiful home that we are proud of. Every room feels exactly how we imagined it—comfortable, stylish, and functional. We're so happy with how it turned out and grateful for all the hard work. Highly recommend them to anyone looking to build their dream home!"
                 </div>
 
                 <div className="text-center mt-4">
