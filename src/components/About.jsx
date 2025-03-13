@@ -1,5 +1,5 @@
 import { RiArrowRightLine, RiPhoneFill } from '@remixicon/react'
-import React from 'react'
+import aboutImg from '../assets/about/img.png'
 
 const About = () => {
   return (
@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 
                 <div className="about__img order-1 lg:order-none mx-w-[450px] lg:mx-w-none lg:mx-0" >
-                    <img src="../src/assets/about/img.png" alt="about img" />
+                    <img src={aboutIm} alt="about img" />
                 </div>
             </div>
 
