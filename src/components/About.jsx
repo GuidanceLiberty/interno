@@ -38,7 +38,7 @@ const About = () => {
                 </div>
                 
                 <div className="about__img order-1 lg:order-none mx-w-[450px] lg:mx-w-none lg:mx-0" >
-                    <img src={aboutIm} alt="about img" />
+                    <img src={aboutImg} alt="about img" />
                 </div>
             </div>
 
