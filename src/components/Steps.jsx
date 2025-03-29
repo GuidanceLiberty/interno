@@ -41,7 +41,7 @@ const Steps = () => {
                 </a>
             </motion.div>
             
-            <motion.div variants={SlideLeft(1.0)} initial='initial' whileInView={"animate"} viewport={{once: false}}  className="step_step text-center">
+            <motion.div variants={SlideLeft(0.6)} initial='initial' whileInView={"animate"} viewport={{once: false}}  className="step_step text-center">
                 <div className="flex justify-center mb-4">
                     <RiMagicLine size={40} className='text-5xl text-accent'  />
                 </div>
@@ -55,7 +55,7 @@ const Steps = () => {
                 </a>
             </motion.div>
             
-            <motion.div variants={SlideLeft(1.6)} initial='initial' whileInView={"animate"} viewport={{once: false}} className="step_step text-center">
+            <motion.div variants={SlideLeft(0.5)} initial='initial' whileInView={"animate"} viewport={{once: false}} className="step_step text-center">
                 <div className="flex justify-center mb-4">
                     <RiToolsLine size={40} className='text-5xl text-accent'  />
                 </div>
