@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logo from '../assets/mylogo/mylogo-1.svg';
+import logo from '../assets/logo.svg';
 import { RiCloseLine, RiMenu3Line } from '@remixicon/react';
 import { Link } from 'react-scroll';
 
