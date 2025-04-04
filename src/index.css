@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .logo-img {
-   @apply h-20 object-contain;
+   @apply h-7 object-contain;
 }
 .mobile-menu {
     @apply flex flex-col relative mt-5 px-3 gap-3 border border-accent-secondary rounded-xl
