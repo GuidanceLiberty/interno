@@ -34,12 +34,12 @@ const Navbar = () => {
         {
           openMenu &&
           (<div className="mobile-menu">
-            <a href="#" className="menu-item">Home</a>
-            <a href="#" className="menu-item">About</a>
-            <a href="#" className="menu-item">Our Services</a>
-            <a href="#" className="menu-item">Blog</a>
-            <a href="#" className="menu-item">Testimonies</a>
-            <a href="#" className="menu-item">Contact</a>
+            <Link to='home' smooth={true} duration={900} className="menu-item">Home</Link>
+            <Link to='' smooth={true} duration={900} className="menu-item">About</Link>
+            <Link to='services' smooth={true} duration={900} className="menu-item">Our Services</Link>
+            <Link to='blog' smooth={true} duration={900} className="menu-item">Blog</Link>
+            <Link to='testimonials' smooth={true} duration={900} className="menu-item">Testimonies</Link>
+            <Link to='contact' smooth={true} duration={900} className="menu-item">Contact</Link>
         </div>)
         }
     </div>

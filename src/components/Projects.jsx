@@ -46,10 +46,9 @@ const Projects = () => {
                 <button className='btn-right-arrow'>
                     <RiArrowRightSLine size={35} className="pl-2 text-gray-500" />
                 </button>
-            </div>
-
-            
+            </div>    
         </div>
+
 
         <div className="w-full max-w-[550px] h-full mx-auto">
             <img src={proj_4} alt="Project 1" />
@@ -64,7 +63,6 @@ const Projects = () => {
                     <RiArrowRightSLine size={35} className="pl-2 text-gray-500" />
                 </button>
             </div>
-
             
         </div>
 

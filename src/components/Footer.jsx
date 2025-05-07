@@ -3,7 +3,7 @@ import logo from '../assets/logo.svg'
 
 const Footer = () => {
   return (
-    <section className='footer- z-20 mt-[80px] lg:mt-[150px]' id='services'>
+    <section className='footer z-20 mt-[80px] lg:mt-[150px]' id='services'>
         <div className="container mx-auto px-0">
             <div className="flex flex-col lg:flex-row gap-8 lg:gap-[100ox] lg:mb-[150px]">
                 <div className="footer__item">
